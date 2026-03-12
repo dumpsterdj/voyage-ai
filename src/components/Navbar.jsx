@@ -18,6 +18,9 @@ export default function Navbar() {
           <NavLink to="/destinations" className={({ isActive }) => `nav-link ${isActive ? "active" : ""}`}>
             Destinations
           </NavLink>
+          <NavLink to="/blog" className={({ isActive }) => `nav-link ${isActive ? "active" : ""}`}>
+            Blog
+          </NavLink>
           <NavLink to="/chat" className={({ isActive }) => `nav-link ${isActive ? "active" : ""}`}>
             Travel Chat
           </NavLink>
